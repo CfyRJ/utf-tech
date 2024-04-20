@@ -38,6 +38,20 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-model-utils"
+version = "4.5.0"
+description = "Django model mixins and utilities"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "django-model-utils-4.5.0.tar.gz", hash = "sha256:08715a87fe114d1038c889c1c9eadade5f400f16230a9988e6ee36ace589240b"},
+    {file = "django_model_utils-4.5.0-py3-none-any.whl", hash = "sha256:745bf343f44e4c95216dd1c0b8307ad50906caadb9b8b4c337d768452840c252"},
+]
+
+[package.dependencies]
+Django = ">=3.2"
+
+[[package]]
 name = "djangorestframework"
 version = "3.15.1"
 description = "Web APIs for Django, made easy."
@@ -154,4 +168,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "cd19c2b4b57b13c9be0f30001c4aec0c9e8ec5845f89e6c5e82741442d755b94"
+content-hash = "2e6ad00a6bd71b99d4fc938be124785ac5f1831d79905d1daf5ae6a3d7895666"

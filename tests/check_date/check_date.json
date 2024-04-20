@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name_ru": "publish_all",
+        "name_en": null,
+        "name_ch": null,
+        "order_id": 10,
+        "foods": [
+            {
+                "internal_code": null,
+                "code": 1,
+                "name_ru": "publ_1",
+                "description_ru": null,
+                "description_en": null,
+                "description_ch": null,
+                "is_vegan": false,
+                "is_special": false,
+                "cost": "1.00",
+                "additional": []
+            },
+            {
+                "internal_code": null,
+                "code": 1,
+                "name_ru": "publ_2",
+                "description_ru": null,
+                "description_en": null,
+                "description_ch": null,
+                "is_vegan": false,
+                "is_special": false,
+                "cost": "1.00",
+                "additional": []
+            },
+            {
+                "internal_code": null,
+                "code": 1,
+                "name_ru": "publ_3",
+                "description_ru": null,
+                "description_en": null,
+                "description_ch": null,
+                "is_vegan": false,
+                "is_special": false,
+                "cost": "1.00",
+                "additional": []
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name_ru": "publish_part",
+        "name_en": null,
+        "name_ch": null,
+        "order_id": 10,
+        "foods": [
+            {
+                "internal_code": null,
+                "code": 2,
+                "name_ru": "part_1",
+                "description_ru": null,
+                "description_en": null,
+                "description_ch": null,
+                "is_vegan": false,
+                "is_special": false,
+                "cost": "2.00",
+                "additional": []
+            }
+        ]
+    }
+]
