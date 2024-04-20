@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "utf-tech"
+version = "0.1.0"
+description = "Test task for UTF.TECH."
+authors = ["Alexandr Kositskiy <koso-96@mail.ru>"]
+readme = "README.md"
+repository = "https://github.com/CfyRJ/utf-tech"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Web Environment",
+    "Intended Audience :: Education",
+    "License :: Aladdin Free Public License (AFPL)",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+]
+packages = [{ include = "utf_tech" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.4"
+python-dotenv = "^1.0.1"
+djangorestframework = "^3.15.1"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
