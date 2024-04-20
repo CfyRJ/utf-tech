@@ -8,4 +8,5 @@
 * SECRET_KEY
 
 ### After cloning from GitHub, run the commands:
-* make start-вуигп
+* make install
+* make start-debug
