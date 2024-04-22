@@ -1,4 +1,4 @@
-# Task manager
+# UTF.TECH
 
 ### Test task for UTF.TECH. The goal is to display dishes by category using Django ORM.
 
